@@ -44,7 +44,7 @@ module.exports = {
 
   production: {
     client: 'pg',
-    connection: 'postgres://roman:~yswqKyg^aFw@reactjscode.com:5432/relational',
+    connection: 'postgres://',
     pool: {
       min: 2,
       max: 10
